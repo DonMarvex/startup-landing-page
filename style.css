@@ -1,0 +1,61 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb
+}
+
+hr {
+  margin: 20px auto;
+  color:#F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;
+
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color:#ee4b08;
+  border-width: 4px;
+}
+
+/* Additional information after using mailchimp */
+
+/* IMPLEMENT USING FLASK BACKEND, CREATE HTML FORM, USE A ROUTE
+SUCH THAT WHEN A USER CLICKS ON THE FIND OUT MORE BUTTON, IT TAKES
+THEM TO THE FORM PAGE.HTML. ENSURE ALL FIELDS ACCEPT REQUIRED VALUES
+WHEN THE USER CLICKS SUBSCRIBE, USE A POST METHOD ON THE SUBMIT ACTION
+SO THAT IT SAVES TO A CSV FILE ON THE SERVER AND THIS INFORMATION
+CAN BE RETRIEVED ANYTIME. WE CAN ALSO CREATE FIELDS IN A SQLITE3 
+DATABASE, CONNECT FLASK TO THE DATABASE AND STORE USER INFORMATION
+ON THE DATABASE */
